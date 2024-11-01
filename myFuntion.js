@@ -27,3 +27,15 @@ function dianZan() {
     dianZanShuBiaoQian.innerText = xinShuzi;
     return;
 }
+
+window.onscroll = function() {
+  var navbar = document.getElementById("navbar");
+  if (window.pageYOffset > 158) {
+      navbar.style.position = "fixed";
+      navbar.style.top = "0";
+  } else {
+      navbar.style.position = "relative"; /* 或者不设置position属性 */
+      navbar.style.top = ""; /* 清除top样式 */
+  }
+};
+

@@ -65,8 +65,9 @@ body {
   flex-wrap: wrap;
 }
 
-.navbar {
-  position: fixed;
-  top: 0px;
+#navbar {
+  position: relative;
+  top: 0;
   width: 100%;
+  z-index: 999;
 }
