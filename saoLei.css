@@ -1,0 +1,178 @@
+#whole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gameArea {
+  display: flex;
+  align-items: center;
+}
+
+#gameArea1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#gameArea3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bts {
+  margin: 5px;
+  margin-top: 30px;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.inputs {
+  margin: 5px;
+  margin-top: 30px;
+  margin-right: 0px;
+  width: 40px;
+  height: 25px;
+  text-align: center;
+}
+
+.txt {
+  margin: 5px;
+  margin-top: 30px;
+  width: 30px;
+  height: 25px;
+  text-align: center;
+}
+
+#gameArea2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#message {
+  display: flex;
+  background: powderblue;
+  margin: 6px;
+}
+
+#time {
+  margin: 5px;
+}
+
+#rest {
+  margin: 5px;
+}
+
+#times {
+  margin: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+  background: cyan;
+}
+
+#starts {
+  margin: 5px;
+  width: 200px;
+  text-align: center;
+  background: red;
+}
+
+#grid {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  height: 520px;
+  background: blue;
+}
+
+#start {
+  margin: 15px;
+  width: 120px;
+  height: 40px;
+  background: green;
+}
+
+#newRow {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.newCol {
+  display: flex;
+  flex: 1;
+  padding: 2px;
+  border: solid 1px red;
+  background: yellow;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+}
+
+.click {
+  display: flex;
+  flex: 1;
+  padding: 2px;
+  border: solid 1px red;
+  background: greenyellow;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightClick {
+  display: flex;
+  flex: 1;
+  padding: 2px;
+  border: solid 1px red;
+  background: rgb(61, 47, 255);
+  justify-content: center;
+  align-items: center;
+  color: rgb(61, 47, 255);
+}
+
+.failling {
+  display: flex;
+  flex: 1;
+  padding: 2px;
+  border: solid 1px red;
+  background: red;
+  justify-content: center;
+  align-items: center;
+}
+
+.failed {
+  display: flex;
+  flex: 1;
+  padding: 2px;
+  border: solid 1px red;
+  background: rgb(194, 105, 71);
+  justify-content: center;
+  align-items: center;
+}

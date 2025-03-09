@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>扫雷小游戏</title>
+    <link rel="stylesheet" type="text/css" href="./saoLei.css" />
+  </head>
+  <body>
+    <div id="whole">
+      <div id="title">扫雷小游戏</div>
+      <div id="gameArea">
+        <div id="gameArea1">
+          <button id="bts1" class="bts">初级</button>
+          <button id="bts2" class="bts">中级</button>
+          <button id="bts3" class="bts">高级</button>
+          <button id="bts4" class="bts">特级</button>
+        </div>
+        <div id="gameArea2">
+          <div id="starts"></div>
+          <div id="message">
+            <div id="time"></div>
+            <div id="rest"></div>
+            <div id="times"></div>
+          </div>
+          <div id="grid"></div>
+          <button onclick="Ready()" id="start">重新开始</button>
+        </div>
+        <div id="gameArea3">
+          <button class="bts" style="width: 70px; margin-left: 5px">
+            自定义
+          </button>
+          <div class="flex row">
+            <input id="input1" class="inputs" type="number" min="3" max="20" />
+            <div class="inputs" style="margin-left: 0px; margin-top: 35px">
+              行
+            </div>
+          </div>
+          <div class="flex row">
+            <input id="input2" class="inputs" type="number" min="3" max="20" />
+            <div class="inputs" style="margin-left: 0px; margin-top: 35px">
+              列
+            </div>
+          </div>
+          <div class="flex row">
+            <input id="input3" class="inputs" type="number" min="1" max="50" />
+            <div class="inputs" style="margin-left: 0px; margin-top: 35px">
+              颗雷
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./saoLei.js"></script>
+  </body>
+</html>
